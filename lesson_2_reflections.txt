@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+   Git creates hidden files to track the git respository. Initializing a repository is necessary to creat the new git repository container.
+
+
+
+
+

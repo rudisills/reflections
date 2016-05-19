@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+   Viewing the diff helped me to find the differences very quickly. I did not have to scroll through the whole file.
+
+   I found that using Beyond Compare was even better than using command-line tools because of its color-based graphical interface.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+   If I removed a feature and found in the future that we still needed it, we could quickly add the feature back by using the history.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+   Pros: You will not accidentally commit code that will not compile!
+   Cons: You could accidentally overwrite and lose work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   I want to use git for personal code projects and for SalesForce at CCM. I hope this will help me and my coworkers to not lose code and to confidently make changes. We will be able to see all files that should be included in one feature in a commit. It's better than nothing!
+
+
+
+
+
+
