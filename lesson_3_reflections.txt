@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+   Remote repositories are useful for collobarion with multiple workers. I can work on the same project at work and at home. My coworkers may live in different States, and this allows us to use one repository without having access to my company's network.
