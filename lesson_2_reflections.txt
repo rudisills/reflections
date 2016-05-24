@@ -2,7 +2,20 @@ What happens when you initialize a repository? Why do you need to do it?
 
    Git creates hidden files to track the git respository. Initializing a repository is necessary to creat the new git repository container.
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+   The staging area holds changes before they have been committed. I can add a file to the staging area with the 'git add' command. Then, I can run 'git status' to make sure that is the only change included in the staging area. Now, I can run 'git commit' to push my changes from the staging area to the repository. If I see more items when I run 'git status', then I know that I need to account for those changes in my commit message. I may want remove my change from the staging area and check them in indepentently of each other.
 
-
-
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+   
+   Branches help when several people are working on the same project. I am able to check in features that may not be released to the public. But we may want to have an internal latest version that is being tested by another team. Branches help to keep our new, possibly defective code out of the main trunk until it has been tested and validated.
+   
+How do the diagrams help you visualize the branch structure?
+   
+   Visual diagrams help to eliminate confusion. They are often more clear than just text.
+   
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   
+   Pros: Faster! Cons: Can result in code that will not even compile. Could be easier to manually merge and review the changes as a check to ensure that nothing extra is included.
+   
+   
